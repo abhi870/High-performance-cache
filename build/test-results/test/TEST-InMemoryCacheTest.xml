@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="InMemoryCacheTest" tests="1" skipped="0" failures="0" errors="0" timestamp="2025-02-02T05:33:24" hostname="Abhisheks-MacBook-Pro.local" time="8.012">
+  <properties/>
+  <testcase name="test_putMoreThanMaxSizeConcurrent" classname="InMemoryCacheTest" time="8.012"/>
+  <system-out><![CDATA[error occurred while removing entry + : null
+error occurred while removing entry + : null
+error occurred while removing entry + : null
+error occurred while removing entry + : null
+error occurred while removing entry + : null
+error occurred while removing entry + : null
+error occurred while removing entry + : null
+error occurred while removing entry + : null
+error occurred while removing entry + : null
+error occurred while removing entry + : null
+error occurred while removing entry + : null
+error occurred while removing entry + : null
+error occurred while removing entry + : null
+error occurred while removing entry + : null
+error occurred while removing entry + : null
+error occurred while removing entry + : null
+error occurred while removing entry + : null
+error occurred while removing entry + : null
+error occurred while removing entry + : null
+error occurred while removing entry + : null
+error occurred while removing entry + : null
+error occurred while removing entry + : null
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>
