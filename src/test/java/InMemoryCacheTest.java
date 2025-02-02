@@ -2,6 +2,7 @@ import Cache.LinkedList.CacheEntry;
 import Cache.LinkedList.DoublyLinkedList;
 import Cache.adaptor.DatabaseAdaptor;
 import Cache.adaptor.KvDatabaseAdaptor;
+import Cache.cache.Cache;
 import Cache.cache.InMemoryCache;
 import Cache.db.DataBase;
 import Cache.db.DbEntry;
@@ -38,7 +39,7 @@ public class InMemoryCacheTest {
                 .build();
         ConcurrentHashMap<String, CacheEntry> concurrentHashMap = new ConcurrentHashMap(10);
 
-        InMemoryCache inMemoryCache = InMemoryCache.builder()
+        Cache inMemoryCache = InMemoryCache.builder()
                 .storage(concurrentHashMap)
                 .evictionPolicy(evictionPolicy)
                 .databaseAdaptor(databaseAdaptor)
@@ -64,7 +65,7 @@ public class InMemoryCacheTest {
                 .build();
         ConcurrentHashMap<String, CacheEntry> concurrentHashMap = new ConcurrentHashMap(10);
 
-        InMemoryCache inMemoryCache = InMemoryCache.builder()
+        Cache inMemoryCache = InMemoryCache.builder()
                 .storage(concurrentHashMap)
                 .evictionPolicy(evictionPolicy)
                 .databaseAdaptor(databaseAdaptor)
@@ -124,7 +125,7 @@ public class InMemoryCacheTest {
                 .build();
         ConcurrentHashMap<String, CacheEntry> concurrentHashMap = new ConcurrentHashMap(10);
 
-        InMemoryCache inMemoryCache = InMemoryCache.builder()
+        Cache inMemoryCache = InMemoryCache.builder()
                 .storage(concurrentHashMap)
                 .evictionPolicy(evictionPolicy)
                 .databaseAdaptor(databaseAdaptor)
@@ -149,7 +150,7 @@ public class InMemoryCacheTest {
                 .build();
         ConcurrentHashMap<String, CacheEntry> concurrentHashMap = new ConcurrentHashMap(10);
 
-        InMemoryCache inMemoryCache = InMemoryCache.builder()
+        Cache inMemoryCache = InMemoryCache.builder()
                 .storage(concurrentHashMap)
                 .evictionPolicy(evictionPolicy)
                 .databaseAdaptor(databaseAdaptor)
@@ -185,7 +186,7 @@ public class InMemoryCacheTest {
                 .build();
         ConcurrentHashMap<String, CacheEntry> concurrentHashMap = new ConcurrentHashMap(10);
 
-        InMemoryCache inMemoryCache = InMemoryCache.builder()
+        Cache inMemoryCache = InMemoryCache.builder()
                 .storage(concurrentHashMap)
                 .evictionPolicy(evictionPolicy)
                 .databaseAdaptor(databaseAdaptor)
@@ -222,7 +223,7 @@ public class InMemoryCacheTest {
                 .build();
         ConcurrentHashMap<String, CacheEntry> concurrentHashMap = new ConcurrentHashMap();
 
-        InMemoryCache inMemoryCache = InMemoryCache.builder()
+        Cache inMemoryCache = InMemoryCache.builder()
                 .storage(concurrentHashMap)
                 .evictionPolicy(evictionPolicy)
                 .databaseAdaptor(databaseAdaptor)
